@@ -8,9 +8,11 @@ This image is based on Alpine Linux (2.7) image, which is only a 5MB image, and 
 
 *[Due of bug](https://bugs.alpinelinux.org/issues/3503), this image based on latest Alpine Linux version (2.7), where everything works: SIP stack, calls, AGI, AMI. Author uing this image for ongoing VoIP systems development with Adhearsion.*
 
+This bug is fixed on November 18, 2016, fresh asterisk version is available now.
+
 Total size of this image is only:
 
-[![](https://badge.imagelayers.io/andrius/alpine-asterisk:latest.svg)](https://imagelayers.io/?images=andrius/alpine-asterisk:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/andrius/alpine-asterisk:11.17.1.svg)](https://microbadger.com/images/andrius/alpine-ruby "Get your own image badge on microbadger.com")
 
 What's missing
 ---------------
@@ -33,7 +35,7 @@ Only base Asterisk packages installed. If you want to add sounds, it's recommend
 Database support
 ----------------
 
-By default, Asterisk PBX strre CDR's to the CSV file, but also support databases. Refer Asterisk PBX documentation for ODBC support. 
+By default, Asterisk PBX store CDR's to the CSV file, but also support databases. Refer Asterisk PBX documentation for ODBC support. 
 
 For Postgre SQL include following lines to your Dockerfile:
 
