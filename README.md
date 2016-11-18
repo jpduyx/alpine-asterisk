@@ -12,7 +12,7 @@ This bug is fixed on November 18, 2016, fresh asterisk version is available now.
 
 Total size of this image is only:
 
-[![](https://images.microbadger.com/badges/image/andrius/alpine-asterisk:11.17.1.svg)](https://microbadger.com/images/andrius/alpine-ruby "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/andrius/alpine-asterisk.svg)](https://microbadger.com/images/andrius/alpine-asterisk "Get your own image badge on microbadger.com")
 
 What's missing
 ---------------
