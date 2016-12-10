@@ -5,6 +5,7 @@ MAINTAINER Andrius Kairiukstis <andrius@kairiukstis.com>
 
 RUN apk add --update less curl sngrep ngrep \
       asterisk asterisk-curl asterisk-speex asterisk-sample-config \
+&&  rm -rf /usr/lib/asterisk/modules/*pjsip* \
 &&  rm -rf /var/cache/apk/* /tmp/* /var/tmp/*
 
 # start asterisk so it creates missing folders and initializes astdb
