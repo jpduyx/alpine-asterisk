@@ -10,6 +10,12 @@ Total size of this image is only:
 
 [![](https://images.microbadger.com/badges/image/andrius/alpine-asterisk.svg)](https://microbadger.com/images/andrius/alpine-asterisk "Get your own image badge on microbadger.com")
 
+Versions
+--------
+
+- `docker pull andrius/alpine-asterisk:11` for Asterisk 11.x (stable release)
+- `docker pull andrius/alpine-asterisk:14` for Asterisk 14.2.0
+
 What's missing
 ---------------
 
