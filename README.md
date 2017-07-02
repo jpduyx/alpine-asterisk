@@ -13,10 +13,8 @@ Total size of this image is only:
 What's missing
 ---------------
 
-Only base Asterisk packages installed. If you want to add sounds, it's recommended to mount them as volume or data container, however you may install additional packages with `apk` command:
+Only base Asterisk packages installed with some sounds. However you may install additional packages with `apk` command:
 
-- asterisk-sounds-en
-- asterisk-sounds-moh
 - asterisk-alsa
 - asterisk-srtp
 - asterisk-curl
@@ -24,7 +22,6 @@ Only base Asterisk packages installed. If you want to add sounds, it's recommend
 - asterisk-mobile
 - asterisk-dahdi
 - asterisk-fax
-- asterisk-speex
 - asterisk-pgsql
 - asterisk-odbc
 
@@ -48,3 +45,7 @@ RUN apk add --update psqlodbc asterisk-odbc \
 &&  rm -rf /var/cache/apk/*
 ```
 
+Mount config volume
+-------------------
+use docker run  -v option like: 
+-v $(pwd)/test/example/:/etc/asterisk/ 
