@@ -1,14 +1,9 @@
 Asterisk PBX Docker image
 =========================
 
-The smallest Docker image with Asterisk PBX https://hub.docker.com/r/andrius/alpine-asterisk/
+Small Docker image with Asterisk PBX 
 
-This image is based on Alpine Linux image, which is only a 5MB image, and contains
-[Asterisk PBX](http://www.asterisk.org/get-started/features).
-
-Total size of this image is only:
-
-[![](https://images.microbadger.com/badges/image/andrius/alpine-asterisk.svg)](https://microbadger.com/images/andrius/alpine-asterisk "Get your own image badge on microbadger.com")
+Based on https://hub.docker.com/r/andrius/alpine-asterisk/
 
 What's missing
 ---------------
